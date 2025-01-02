@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 const DashboardPage = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const DashboardPage = () => {
           </div>
           <div className="bg-red-500">
             <button className="rounded-lg border-l-black" onClick={() => {}}>
-              Go to Calendar
+              <Link to="/Calendar">Calendar</Link>
             </button>
           </div>
         </div>
